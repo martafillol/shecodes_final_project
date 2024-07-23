@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marta Fillol CV</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+          body {
+            background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/566/original/bg-img.jpg?1600162567);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+          }
+            .menu {
+              
+              font-family:"Lato","Helvetica Neue";
+              font-weight: 500;
+              position: fixed;
+              top: 0;
+              margin-left: 90%;
+              width: 100px;
+              background: #322d2edb;
+              height: 530px;
+              margin-top: 80px;
+            }
+            
+            .menu a {
+            display: block;
+            color: #f5ae51;
+            text-align: center;
+            font-size: 12px;
+            padding: 26px 21px;
+            text-decoration:#f5ae51;
+    
+            }
+            .menu a:hover {
+              text-decoration-line: underline;
+            }
+            .menu-icons {
+              width: 30px;
+            }
+      
+            ul {
+              width: 96%;
+            }
+
+            h1 {
+              font-family:"Helvetica Neue","Lato";
+              font-size: 48px;
+              font-style:normal;
+              color: #f5ae51;
+            }
+            .experienceH1 {
+              padding: 10px 0px 10px 0px;
+              margin-block-start: 0px;
+              margin-block-end: 0px;
+            }
+            .educationH1 {
+              padding: 10px 0px 10px 0px;
+              margin-block-start: 0px;
+              margin-block-end: 0px;
+            }
+            .contactH1 {
+              padding: 10px 0px 10px 0px;
+              margin-block-start: 0px;
+              margin-block-end: 0px;
+            }
+            h2 {
+              font-family:"Lato","Helvetica Neue";
+              font-weight: 400;
+              line-height:40px;
+              font-size: 19px;
+              color: #f8f7f7;
+              padding: 15px 20px;
+              padding: 10px 60px 0px 0px;
+              text-align: justify;
+              font-style:normal;
+
+            }
+            h3 {
+              font-family: "helvetica Neue";
+              color:#f5ae51;
+              font-size: 15px;
+              font-style:normal;
+            }
+            h4 {
+
+              margin-block-start: 0px;
+              font-size:18px;
+              font-family:"Lato","Helvetica Neue";
+              color:#f8f7f7;
+            }
+            .fixedphoto {
+
+              position: fixed;
+              text-align: center;
+              margin-left: 10px;
+              width: 362px;
+
+              margin-block-start: 0px;
+              height: 700px;
+            }
+            .row {
+              margin-top: 50px;
+              display: flex;
+              
+            }
+            .content {
+              flex: 0 0 80%;
+              float: right;
+              margin-block-start: 0px;
+              margin-left: 16.5%;
+            }
+
+            .fotoperfil {
+
+              margin-block-start: 0px;
+              max-height: 380px;
+              margin-right:10px;
+              box-shadow: #322d2edb -6px -5px 20px 0px;
+
+            }
+
+            .subtitle {
+              display: block;
+              text-align: center;
+              margin-top: 20px;
+
+            }
+            .marta {
+
+              font-size: 20px;
+              color:#f5ae51;
+              font-family: "Lato","Helvetica Neue";
+              margin: 0px;
+              font-weight: 550;
+              padding: 5px 10px;
+              text-align:center;
+            }
+            .col-1 {
+              flex: 0 0 15%;
+              height: 700px;
+              position: relative;
+              text-align: center;
+            }
+
+            .aboutme {
+
+              background-color: #322d2edb;
+              box-shadow: rgb(10 10 0 / 0.11) 8px 8px 12px 0;
+              padding-top: 40px;
+              padding-left: 50px;
+              height: 470px;
+              margin-block-start: 0px;
+              width: 80%;
+              margin-block-end: 30px;
+            }
+            .experience {
+              width: 80%;
+              background-color: #322d2edb;
+              box-shadow: rgb(10 10 0 / 0.11) 8px 8px 12px 0;
+              padding-top: 40px;
+              padding-left: 50px;
+              height: 470px;
+              margin-block-start: 0px;
+              margin-block-end: 30px;
+              flex: 0 0 50%;
+            }
+            .Contact {
+              width: 80%;
+              background-color: #322d2edb;
+              box-shadow: rgb(10 10 0 / 0.11) 8px 8px 12px 0;
+              padding-top: 40px;
+              padding-left: 50px;
+              height: 470px;
+              margin-block-start: 0px;
+              margin-block-end: 30px;
+            }
+            .contact-content {
+              text-align: center;
+            }
+            .contact-ul {
+              display: block;
+              text-align: center;
+              margin: 0 auto;
+            }
+            .contact-li {
+              text-align: center;
+              padding: 10px;
+            }
+            .contact-icon {
+              height: 40px;
+              width: auto;
+            }
+            .text-contact {
+              display: block;
+              margin: 0 auto;
+              text-align: center;
+            }
+            .contactH1 {
+              text-align: left;
+            }
+
+            .contactMe{
+              color:#322d2e;
+              background-color:#f5ae51;
+              margin-block-start: 10px;
+              padding: 6px;
+              border-radius: 20px;
+              border: 2px solid #f5ae51;
+              transition: all 200ms ease-in-out;
+            }
+            .contactMe:hover {
+              color:#f8f7f7;
+              background:#f5ae51;
+              cursor: pointer;
+            }
+            ul {
+              list-style-type: none;
+              padding: 0;
+            }
+            .OMD {
+              list-style-type: none;
+              display: flex;
+            }
+            .omdlogo {
+              height: 40px;
+              padding: 20px 17px 10px 0px;
+            }
+            .dentsu {
+              list-style-type: none;
+              display: flex;
+            }
+            .danlogo {
+              height: 40px;
+              padding: 21px 30px 0px 10px;
+            }
+            .ipuana {
+              list-style-type: none;
+              display: flex;
+            }
+            .ipuanalogo {
+              height: 40px;
+              padding: 19px 30px 0px 10px;
+            }
+            .Education {
+              width: 80%;
+              background-color: #322d2edb;
+              box-shadow: rgb(10 10 0 / 0.11) 8px 8px 12px 0;
+              padding-top: 40px;
+              padding-left: 50px;
+              height: 470px;
+              margin-block-start: 0px;
+              margin-block-end: 30px;
+              flex: 0 0 50%;
+              
+            }
+            .esciupf {
+              list-style-type: none;
+              display: flex;
+            }
+            .escilogo {
+              height: 40px;
+              padding: 21px 30px 0px 10px;
+            }
+            .UPF {
+              list-style-type: none;
+              display: flex;
+              margin: 0;
+            }
+            .upflogo {
+              height: 40px;
+              padding: 21px 30px 0px 10px;
+            }
+            .certifications {
+              display: flex;
+            }
+            .cert-col-1 {
+              width: 100%;
+            }
+            .cert-col-2 {
+              flex: 0 0 50%;
+            }
+            .Shecodes {
+              list-style-type: none;
+              display: flex;
+            }
+            .shecodeslogo {
+              padding: 8px;
+              height: 27px;
+            }
+            .amazon {
+              list-style-type: none;
+              display: flex;
+            }
+            .amazonlogo {
+              height: 20px;
+              padding: 15px;
+            }
+            .googleads {
+              list-style-type: none;
+              display: flex;
+            }
+            .googlelogo {
+              height: 20px;
+              width: auto;
+              flex: 0 0 30%;
+              padding: 9px 10px 0px 15px;
+            }
+            .dv360 {
+              list-style-type: none;
+              display: flex;
+            }
+            .dv360logo {
+              width: auto;
+              height: 40px;
+              flex: 0 0 30%;
+              padding: 0 5px;
+            }
+            .xandr {
+              list-style-type: none;
+              display: flex;
+            }
+            .xandrlogo {
+              height: 22px;
+              padding: 9px;
+            }
+            .ttd {
+              list-style-type: none;
+              display: flex;
+            }
+            .ttdlogo {
+              height: 11px;
+              padding: 16px;
+            }
+            .whatIdo {
+              padding: 20px 0px 10px 0px;
+              margin-block-start: 0px;
+              margin-block-end: 0px;
+            }
+            .skills {
+              
+              box-shadow: rgb(10 10 0 / 0.11) 8px 8px 12px 0;
+              padding-top: 40px;
+              padding-left: 50px;
+              height: 470px;
+              margin-block-start: 0px;
+              width: 80%;
+              background-color: #322d2edb;
+              margin-block-end: 30px;
+              
+             
+            }
+            .skillscontent {
+              display: flex;
+              flex: 0 0 20%;
+              margin-block-start: 20px;
+            }
+            .skills-col-1 {
+              width: 100%;
+            }
+            .skills-col-2 {
+              width: 100%;
+            }
+            .skills-col-3 {
+              width: 100%;
+            }
+            .programmatic {
+              list-style-type: none;
+            }
+            .ecommerce {
+              list-style-type: none;
+            }
+            .sem {
+              list-style-type: none;
+            }
+
+            .social {
+              list-style-type: none;
+          
+            }
+            .coding {
+              list-style-type: none;
+            }
+
+            .skillslist {
+              list-style-type: none;
+              padding: 0px;
+              text-align:center;
+            }
+
+            .skillsimage {
+              width: 90px;
+              height: auto;
+              display: block;
+              text-align: center;
+              margin:0 auto;
+              
+            }
+            .ulexperience {
+              margin: 0px;
+            }
+            p {
+              font-family: monospace;
+              color:#f8f7f7;
+              font-style:normal;
+            }
+            bold {
+              color:#f8f7f7;
+            }
+            .footer {
+              
+              text-align: center;
+              padding: 40px 0px 0px 60px;
+            }
+    </style>
+  </head>
+  <body>
+   
+    <div class="menu">
+   
+      <ul>
+        <a href="#top"> 
+          <img class="menu-icons"src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/568/original/person.png?1600168329" alt="">
+          ABOUT</a>
+        <a href="#skills">
+          <img class="menu-icons"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/567/original/skills.png?1600168056" />
+          SKILLS</a>
+        <a href="#experience"> 
+          <img class="menu-icons"src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/569/original/experience.png?1600168386" alt="">
+          EXPERIENCE</a>
+        <a href="#education">
+          <img class="menu-icons" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/570/original/mortarboard.png?1600168447" alt="">
+          EDUCATION</a>
+        <a href="#contact" >
+          <img class="menu-icons"src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/571/original/contact.png?1600168502" alt="">
+          CONTACT</a>
+        
+      </ul>
+    </div>
+
+<div id="top"></div>
+  </br>
+
+    <div class="row">
+      <div class="col-1">
+        <div class="fixedphoto">
+          <img
+            class="fotoperfil"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/530/original/Image_13-9-20_at_12.27.jpeg?1599995427"
+            alt="MartaFillolBruguera"
+          />
+          <div class="subtitle">
+            <h2 class="marta">MARTA FILLOL BRUGUERA</h2>
+            <br>
+            <div class="quote">
+              <h4>
+                💡
+                <em>"A mind that opens to a new idea, <br />
+                  <em>never goes back to its original size"</em>
+              </h4>
+            </div>
+          </div>
+        </div>        
+      </div>
+      
+      <div  class="content">
+      <div class="aboutme">
+        <div class="introAbout">
+          <h1>👋🏻 hey there!</h1>
+          <h2>
+            My name is Marta. I'm a young professional with experience in
+            digital marketing and programmatic advertising. I am a graduate in
+            Business and Management with a Masters degree in International
+            Digital Marketing. I run on coffee, to-do lists and a passion for 
+            learning everything about this crazy, fast paced world called digital
+            marketing. When I'm not in front of a computer, you will find me reading 
+            a book or riding my bike in the mountains! 
+          </h2>
+          <br>
+          <br>
+          <div id="skills"></div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          </div>
+        </div>
+        
+        
+        <div class="skills">
+
+          <h1 class="whatIdo">What I do...</h1>
+
+          <div class="skillscontent">
+            <div class="skills-col-1">
+              <ul class="skillslist">
+                <li class="Programmatic advertising">
+                  <img
+                    class="skillsimage"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/583/original/programmatic_%284%29.png?1600172429"
+                    alt=""
+                  />
+                  <h3>Programmatic Advertising</h3>
+                </li>
+                <li class="coding">
+                  <img
+                    class="skillsimage"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/581/original/data_%282%29.png?1600172181"
+                    alt=""
+                  />
+                  <h3>CSS, HTML, Javascript</h3>
+                </li>
+              </ul>
+            </div>
+            <div class="skills-col-2">
+              <ul class="skillslist">
+                <li class="marketing">
+                  <img
+                    class="skillsimage"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/577/original/chip_%281%29.png?1600171192"
+                    alt=""
+                  />
+                  <h3>Digital Marketing</h3>
+                </li>
+                <li class="ecommerce">
+                  <img
+                    class="skillsimage"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/578/original/online-shop.png?1600171517"
+                    alt=""
+                  />
+                  <h3>E-commerce</h3>
+                </li>
+              </ul>
+            </div>
+            <div class="skills-col-3">
+              <ul class="skillslist">
+              <li class="social">
+                <img
+                  class="skillsimage"
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/579/original/social-media.png?1600171788"
+                  alt=""
+                />
+                <h3>Social Media Ads</h3>
+              </li>
+              <li class="sem">
+                <img
+                  class="skillsimage"
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/580/original/seo.png?1600171944"
+                  alt=""
+                />
+                <h3>SEM</h3>
+              </li>
+              </ul>
+            </div>
+          </div>
+          <div id="experience"></div>
+        </div>
+      
+
+        <div class="experience">
+          <h1 class="experienceH1">Experience</h1>
+
+          <div id="experienceCol1" class="experienceCol1">
+            <ul class="ulexperience">
+              <li id="OMD" class="OMD">
+                <img
+                  class="omdlogo"
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/476/original/omd-uk-logo_2x.png?1599819404"
+                  alt="omdlogo"
+                />
+                <div class="textOMD">
+                  <h3>Programmatic Trader</h3>
+                  <p>OMD UK, London (Nov 19, May 20)</p>
+                  <p>
+                    Managing activation of programmatic display, rich media,
+                    native and mobile for OMD clients using a range of different
+                    market leading DSPs.
+                  </p>
+                </div>
+              </li>
+              <li class="dentsu">
+                <img
+                  class="danlogo"
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/477/original/dentsu-aegis-network-logo-AFA2F29BF8-seeklogo.com.png?1599820765"
+                  alt="dentsulogo"
+                />
+                <div class="textDan">
+                  <h3>Programmatic Trader Trainee</h3>
+                  <p>Denstu Aegis Network, Barcelona (Feb 19,Oct 19)</p>
+                  <p>
+                    Intern in the media investment division of Dentsu Aegis
+                    Network, Amplifi.
+                  </p>
+                </div>
+              </li>
+              <li class="ipuana">
+                <img
+                  class="ipuanalogo"
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/478/original/logo_perfil.001.jpeg?1599821322"
+                  alt="ipuanalogo"
+                />
+                <div class="textipuana">
+                  <h3>Ecommerce & Marketing specialist</h3>
+                  <p>Ipuana Barcelona, (Sep 14, Sep 19)</p>
+                  <p>
+                    Creating and managing website from scratch, working on
+                    content creation and social media marketing to grow the
+                    business.
+                  </p>
+                </div>
+                
+              </li>
+            </ul>
+            <div id="education"></div>
+          </div>
+         
+        </div>
+       
+        <div class="Education">
+          <h1 class="educationH1">Education</h1>
+
+          <div  class="education">
+            <ul>
+              <li class="esciupf">
+                <img
+                  class="escilogo"
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/480/original/Unknown-2?1599822043"
+                  alt="escilogo"
+                />
+                <div class="textesci">
+                  <h3>Masters Degree in International Digital Marketing</h3>
+                  <p>ESCI UPF,Barcelona (Oct 18,Jun 19)</p>
+                </div>
+              </li>
+              <li class="UPF">
+                <img
+                  class="upflogo"
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/481/original/logo-universitat-pompeu-fabra.png?1599822959"
+                  alt="upflogo"
+                />
+                <div class="textUPF">
+                  <h3>Bachelors Degree in Business & Management</h3>
+                  <p>Pompeu Fabra University, Barcelona (Sep 14, Jun 18)</p>
+                </div>
+              </li>
+              <li><h3>Certifications</h3></li>
+              <li class="certifications">
+                <div class="cert-col-1">
+                  <div class="Shecodes">
+                    <img
+                      class="shecodeslogo"
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/492/original/logo-shecodes-2839874e1220b4aee149607c45385ee1f141b750566827d239670be80f6b2be1.png?1599835470"
+                      alt="shecodes"
+                    />
+                    <p class="textshecodes">Shecodes coding workshop</p>
+                  </div>
+                  <div class="xandr">
+                    <img
+                      class="xandrlogo"
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/493/original/xandr_logo_9bL6rCv.jpg.1440x1000_q85_box-11601089675_crop_detail-1.png?1599837026"
+                      alt="xandr"
+                    />
+                    <p class="textxandr">Xandr Invest certificate</p>
+                  </div>
+                  <div class="dv360">
+                    <img
+                      class="dv360logo"
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/490/original/20f532_92ec07b546594e8ebb4be10a72a0a8b0_mv2.png?1599835363"
+                      alt=""
+                    />
+                    <p class="textdv360">Display & video 360</p>
+                  </div>
+                </div>
+                <div class="cert-col-2">
+                  <div class="amazon">
+                    <img
+                      class="amazonlogo"
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/489/original/unnamed.png?1599835256"
+                      alt=""
+                    />
+                    <p class="textamazon">Amazon DSP certification</p>
+                  </div>
+                  <div class="ttd">
+                    <img
+                      class="ttdlogo"
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/494/original/trade-desk-logo.png?1599837145"
+                      alt=""
+                    />
+                    <p class="textttd">Trading academy certified</p>
+                  </div>
+                  <div class="googleads">
+                    <img
+                      class="googlelogo"
+                      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/495/original/google-adwords-logo.png?1599839702"
+                      alt=""
+                    />
+                    <p class="textgoogle">Google Ads Fundamentals</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="contact"class="Contact">
+          <h1 class="contactH1">Get in touch</h1>
+          <div class="contact-content">
+            <ul class="contact-ul">
+              <li class="contact-li">
+                <img
+                  class="contact-icon"
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/574/original/mail.png?1600170717"
+                  alt=""
+                />
+                <div class="text-contact">
+                  <bold>Email address</bold>
+                  <p>martafillolbruguera@gmail.com</p>
+                </div>
+              </li>
+              <li class="contact-li">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/573/original/phone_%281%29.png?1600170646"
+                  class="contact-icon"
+                  alt=""
+                />
+                <div class="text-contact">
+                  <bold>Phone</bold>
+                  <br />
+                  <p>+34 674807997</p>
+                </div>
+              </li>
+            </ul>
+            <p>If you prefer, leave your email and I will get in touch!</p>
+            <button class="contactMe">Contact me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>This page was built by Marta Fillol :)</p>
+      </div>
+     
+    </div>
+
+
+    <script>
+
+      function LeaveEmail (){
+        let name=prompt("What is your name?");
+        prompt("What is your email address?");
+        alert ("Thank you " + name +", I will be in touch!");
+      }
+      let button=document.querySelector(".contactMe");
+      button.addEventListener("click",LeaveEmail);
+   
+      var contact = document.getElementById("contact");
+
+ 
+
+    </script>
+  </body>
+</html>
